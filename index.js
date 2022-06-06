@@ -7,22 +7,24 @@
 // grab the save-el and store it in a variable called saveEl
 // create a variable into the save element that contains both count and dash seperator "12 -"
 
+// after hitting sava button, set the counter(h2) to zero.
+// next counter should start from 0.
+
 
 
 let count = 0;
 let countEl = document.getElementById("count-el")
-console.log(countEl)
 let saveEl = document.getElementById("save-el")
 
 function increment() {
     count ++
     countEl.textContent = count
-    console.log(count)
 }
 
 function save() {
     let newCount = count + ' - '
-    saveEl.textContent = newCount
-    console.log('clicked')
+    saveEl.textContent += newCount
+    countEl.textContent = 0
+    count = 0
 }
 
