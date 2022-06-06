@@ -6,11 +6,12 @@
 
 body {
     background-image: url("subway-station.webp");
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     background-size: cover;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     text-align: center;
+    color: black;
 }
 
 h1 {
@@ -23,6 +24,7 @@ h1 {
 h2 {
     font-size: 50px;
     padding-bottom: 40px;
+    margin: 0;
 }
 
 button {
@@ -53,5 +55,11 @@ button:hover {
 p {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+#save-el {
+    background-color: orange;
+    width: 400px;
+    margin: auto;
 }
