@@ -21,6 +21,7 @@ div {
     transform: translate(-50%, -50%);
     font-weight: bold;
     text-align: center;
+    padding: 30px;
 }
 
 
@@ -68,9 +69,4 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 25px;
-}
-
-#save-el {
-    width: 400px;
-    margin: auto;
 }
