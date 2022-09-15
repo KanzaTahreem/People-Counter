@@ -1,6 +1,6 @@
 # People Counter
 
-> This is a simple counter to count and save the number of peoples entering at a place.
+> This is a simple counter to count and save the number of people entering at a place.
 
 ## Built With
 
