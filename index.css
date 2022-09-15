@@ -5,18 +5,28 @@
 }
 
 body {
-    background-image: url("subway-station.webp");
-    backdrop-filter: blur(20px);
-    background-size: cover;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div {
+    background-color: #668697ad;
+    box-shadow: 1px 1px 16px grey;
+    border: 1px solid gray;
+    border-radius: 18px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 70%;
+    transform: translate(-50%, -50%);
     font-weight: bold;
     text-align: center;
-    color: black;
 }
+
 
 h1 {
     padding-top: 12%;
-    font-size: 50px;
+    font-size: 40px;
     padding-bottom: 40px;
 
 }
@@ -34,22 +44,24 @@ button {
     color: white;
     width: 200px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 50px;
     letter-spacing: 2px;
     font-size: 17px;
 }
 
 button:hover {
-    padding: 20px;
-    color:yellow;
+    transform: scale(1.02);
+    color: goldenrod;
     font-weight: bold;
+    cursor: pointer;
 }
+
 #increment-btn {
-    background: darkred;
+    background-color: darkblue;
 }
 
 #save-btn {
-    background: darkgreen;
+    background-color: darkgreen;
 }
 
 p {
@@ -59,7 +71,6 @@ p {
 }
 
 #save-el {
-    background-color: orange;
     width: 400px;
     margin: auto;
 }
