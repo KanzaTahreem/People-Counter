@@ -1,6 +1,6 @@
 # People Counter
 
-> This is a simple counter to count and save the number of people entering at a place.
+> An app that allow users to count and the number of people entering at a place.
 
 ## Built With
 
